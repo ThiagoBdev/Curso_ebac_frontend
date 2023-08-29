@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body > header{
+    background-color: grey;
+    padding: 16px 0;
+    color: rgb(235, 235, 228);
+}
+
+body > header h1{
+    margin-left: 60px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 90px;
+    
+
+}
+
+header li  a{
+    color: beige;
+    text-decoration: none;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article{
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2
+    .articles article{
+        margin-bottom: 16px;
+
+    }
+
+    .articles article h3{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .articles article a{
+        background-color: blue;
+        color: antiquewhite;
+        padding:  8px;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    .articles article a:hover{
+        text-decoration: underline;
+    }
+
+    .articles article p
+    .articles article a{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .articles article h3{
+        font-size:  24px;
+    }
+
+    section h2{
+        font-size:  32px;
+    }
+
+    #Economy{
+        background-color: rgba(0,225, 0, 0.1);
+    }
+
+    #Economy .articles article a{
+        background-color: rgba(0, 255, 0, 0.8);
+        color: bisque;
+        font-weight: 900;
+        margin-top: 10px;
+    }
+
+    #sports{
+        background-color: rgb(206, 207, 171);
+    }
+
+    #sports .articles article a{
+        background-color: rgb(200, 156, 103);
+    }
+
+    #Tecnology{
+        background-color:#c8f4ff
+    }
+
+    #Tecnology .articles article a{
+        font-weight: 900;
+        margin-top: 10px;
+    }
+
+    #Entreterimento {
+        background-color:#fce9ff
+    }
+
+    #Entreterimento .articles article a{
+        font-weight: 900;
+        margin-top: 10px;
+        background-color: #dda0dd;
+    }
+
+
+
+
+
