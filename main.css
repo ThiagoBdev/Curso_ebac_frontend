@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-image: url('./images/lotus-1205631_1920.jpg');
+    background-size: cover; /* Alterado para 'cover' para cobrir completamente o corpo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 100%; /* Garante que a imagem cubra toda a altura do corpo */
+    overflow: hidden; /* Impede a barra de rolagem vertical */
+    display: flex;
+    justify-content:center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    border: solid 1px;
+    border-radius: 8px;
+    max-width: 330px;
+    width: 100%;
+    margin: 120px 0;
+    color:#ffffff;
+    filter: blur();
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(6px);
+
+}
+
+.container h1{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 40px;
+}
+
+.container label{
+    font-style: italic;
+}
+
+.container input{
+    width: 250px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 3px;
+    transition: 300ms;
+}
+
+.container input:hover{
+    transform: scale(0.9);
+}
+
+.container button{
+    width: 240px;
+    padding: 6px;
+    border-radius: 8px;
+    margin-top: 8px;
+    background-color: #8036b7;
+    cursor: pointer;
+    color: #fff;
+    transition: 300ms;
+    font-size: 16px;
+    border: none;
+}
+
+.container button:hover{
+    background-color: #9348c9;
+    transform: scale(0.9);
+}
