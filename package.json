@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.76.0"
+  },
+  "name": "gulp-exercicios",
+  "version": "1.0.0",
+  "main": "src/index.mjs",
+  "dependencies": {
+    "immutable": "^4.3.5",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "normalize-path": "^3.0.0",
+    "picomatch": "^2.3.1",
+    "source-map-js": "^1.2.0"
+  },
+  "scripts": {
+    "gulp": "gulp",
+    "sass": "sass",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
