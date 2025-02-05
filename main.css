@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(105, 105, 105)
+    ;
+}
+
+
+#Principal {
+    color: rgb(3, 3, 3);
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.Caixa{
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+}
